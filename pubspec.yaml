@@ -1,0 +1,36 @@
+name: app_recargas
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP Client para llamadas a la API de Puntored
+  dio: ^5.4.0 
+
+  # Manejo de estado con Riverpod
+  flutter_riverpod: ^2.4.9
+
+  # Almacenamiento local con SQLite
+  sqflite: ^2.3.0
+
+  # Shared Preferences para guardar datos simples (ej. token de autenticación)
+  shared_preferences: ^2.2.2
+
+  # Formateo de fechas y manipulación de datos
+  intl: ^0.19.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
